@@ -1,0 +1,11 @@
+Moduller:
+ Symbol == Degiskeni sembol tipimde yapmamızı sağlayan moduldur.
+ pprint == Yazdıgımız islemin matematiksel gosterimini verir.
+ pyplot == grafik islemleri icin import edilir
+Fonksiyonlar:
+ factor() == fonksiyona koyduğunuz islemi carpanlarına ayırır.
+ expand() == factorun tersi olarak çarplanlara ayırdıgımız ifadenin acılmıs halini verir.
+ subs()=bir degiskenin digerinin tipinde yazılmasını saglayan yani o degiskeni yok etmemizi saglayan fonksiyondur.
+ plot()= Gereken degerler yazıldıgında bir fonksiyonun grafiğinin cizilmis halini verir.
+ evalf()=verilen sonuctaki sabitleri ve fonksiyonları da sayısal degere cevirir.
+ 
