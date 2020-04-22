@@ -1,0 +1,24 @@
+In [5]:
+from sympy import Symbol,Limit
+In [6]:
+t = Symbol("t")
+st = 5*t**2+2*t+8
+In [7]:
+t1 = Symbol("t1")
+delta_t = Symbol("delta_t")
+In [8]:
+st1 = st.subs({t:t1})
+st1_delta = st.subs({t:t1+delta_t})
+In [9]:
+Limit((st1_delta-st1)/delta_t,delta_t,0).doit()
+Out[9]:
+10*t1 + 2
+In [15]:
+from sympy import exp,sqrt,pi,Integral,pprint
+In [16]:
+x = Symbol("x")
+In [17]:
+p = exp(-(x-10)**2/2)/sqrt(2*pi)
+In [18]:
+pprint(Integral(p,(x,11,12)).doit().evalf())
+0.135905121983278
